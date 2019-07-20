@@ -3,7 +3,7 @@
 require_once("../dbconnection/dbconnection.php");
 
 class Result {
-    
+     
 public function add_result($marks_obtained, $mobile_no)
 {
     try
