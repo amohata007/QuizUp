@@ -51,7 +51,7 @@ if(count($mcq) > 0)
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <input type="submit" name="updatemcq" value="    Update MCQ    " />
     <?php
-    } // end if
+    } // end if 
     ?>
 </form>
 </div>
