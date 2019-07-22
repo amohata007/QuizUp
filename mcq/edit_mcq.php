@@ -9,7 +9,7 @@ $mcq = NULL;
 if(isset($_GET['mcqid']))
 {
     $mcq = $mcqObject->get_mcq($_GET["mcqid"]);    
-}
+} 
 ?>
 
 <?php include_once("../headers/header_admin.php"); ?>
