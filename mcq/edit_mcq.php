@@ -1,6 +1,6 @@
 <?php
 require_once("mcq_model.php");
-$mcqObject = new MCQ();
+$mcqObject = new MCQ(); 
 if(isset($_POST["updatemcq"]))
 {
     $mcqObject->update_mcq();
