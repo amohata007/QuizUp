@@ -6,7 +6,7 @@ if(isset($_POST["updatemcq"]))
     $mcqObject->update_mcq();
 }
 $mcq = NULL;
-if(isset($_GET['mcqid']))
+if(isset($_GET['mcqid'])) 
 {
     $mcq = $mcqObject->get_mcq($_GET["mcqid"]);    
 } 
